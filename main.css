@@ -1,0 +1,96 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    max-width: 1400px;
+  
+   
+}
+
+#topBar{
+    display: flex;
+    width: 100%;
+    background-color:#0D3D9E;
+    height: 50px;
+    justify-content: space-between;
+    z-index: 1;
+   
+}
+
+#title{
+    text-align: center;
+    color: white;
+    text-align: center;
+    padding: 5px 0 10px 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#hamMenu{
+   padding: 10px;
+   /*align-self: flex-start;*/
+}
+#paddle{
+    padding: 10px;
+   /* align-self: flex-end;*/
+}
+
+
+#navMenu{
+    display: none;
+    text-decoration: none;
+    background-color: #0D3D9E;
+    color: white;
+    position: absolute;
+    margin-top: 50px; /*same size as the header bar*/
+    height: 500px;
+    width: 200px;
+}
+
+#navMenu ul li{
+    list-style-type: none;
+    padding: 5%;
+    font-size: larger;
+}
+
+
+
+main{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.pictureContainer{
+    background: white url(/images/canoe.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+.pictureContainer h2{
+    color: white;
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    top: 25%;
+    left: 25%;
+    font-size:40px;
+}
+
+.contentSection h3{
+    color: green;
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    #content {
+         width: 100%;
+         margin-left: auto;
+         margin-right: auto;
+    }
+    }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Halifax Canoe and Kayak</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+
+
+</head>
+<body>
+    <nav id="topBar">
+        <div>
+            <img src="/images/hamburger.png" id="hamMenu" alt="Hamburger Menu Icon" height="40px" width="40px"></div>
+        <div id="navMenu">
+            <ul>
+                <li>Home</li>
+                <li> Book Trip</li>
+                <li>Admin Login</li>
+            </ul>
+        </div>
+        <h1 id="title">Halifax Canoe and Kayak</h1>
+        <div><img src="/images/paddle-white.png" id="paddle" alt="White Crossed Paddles" height="40px" width="40px"></div>
+    </nav>
+   <script>
+        $(document).ready(function(){
+            $("#hamMenu").click(function(){
+                $("#navMenu").toggle("slow");
+            });
+        });
+   </script>
+
+    <main>
+        <div class="pictureContainer">
+        <h2>Come Experience Canada</h2>
+        </div>
+    
+        <section class="contentSection">
+         <h2>Upcoming Adventures</h2>       
+            <h3>Halifax</h3>
+            <p>Date: 2017-04-12<br>Duration: 4 days</p>
+            <h4>Summary</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nihil officiis aperiam cumque odio corporis vitae architecto? Iste deserunt facilis corporis quidem rem, eius deleniti iusto repellat perferendis laborum quibusdam.</p>
+       
+
+            <h3>Sydney</h3>
+            <p>Date: 2017-05-10<br>Duration: 2 days</p>
+            <h4>Summary</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nihil officiis aperiam cumque odio corporis vitae architecto? Iste deserunt facilis corporis quidem rem, eius deleniti iusto repellat perferendis laborum quibusdam.</p>
+      </section>
+
+            
+    </main>
+
+</body>
+</html>
